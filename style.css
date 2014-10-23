@@ -1,15 +1,19 @@
 body {
-	width: 945px;
-	margin: 0 auto;
+  width: 945px;
+  margin: 0 auto;
 }
 h1{
-	font-family: 'Futura';
-	font-size: 52px;
-	letter-spacing: 2px;
-	text-align:center;
+  font-family: 'Futura';
+  font-size: 52px;
+  letter-spacing: 2px;
+  text-align:center;
 }
 
-div.about {
-	text-align:center;
-	font-family: "Century Gothic";
+div.summary {
+  text-align:center;
+  font-family: "Century Gothic";
+}
+
+div.menu {
+
 }
