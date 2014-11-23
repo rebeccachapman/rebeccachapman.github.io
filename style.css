@@ -8,6 +8,7 @@ h1{
   letter-spacing: 2px;
   text-align:center;
   margin-bottom: 0px;
+  text-shadow: white 0.1em 0.1em 0.2em;
 }
 
 div.summary {
@@ -25,6 +26,7 @@ li.menu{
   display: inline;
   list-style-type: none;
   padding-right: 80px;
+  text-shadow: white 0.1em 0.1em 0.2em;
 }
 
 li.menu a {
@@ -34,4 +36,30 @@ li.menu a {
 
 li.menu a:hover {
   text-decoration: underline;
+}
+
+body.index {
+  background-image: url(images/cocoa_beach.jpg);
+  background-attachment: fixed;
+  background-position: 50% 10px;
+  background-repeat: no-repeat no-repeat;
+  background-size: 945px 142px;
+}
+
+div.slideshow {
+  margin: 0 auto;
+}
+
+div.sidebar {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  border-right: thin solid #A8A3A3;
+  height: 100%;
+}
+
+div.content {
+  width: 75%;
+  display: inline-block;
+  float: right;
 }
