@@ -1,0 +1,10 @@
+<div class="sidebar">
+  <p>
+    <b> Projects and Research </b>
+    <ul>
+      {% for link in layout.sidebar_links %}
+        <li> <a href="/{{layout.category}}/{{link[1]}}.html">{{link[0]}}</a></li>
+      {% endfor %}
+    </ul>
+  </p>
+</div>

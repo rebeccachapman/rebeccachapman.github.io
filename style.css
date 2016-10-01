@@ -38,9 +38,9 @@ li.menu a:hover {
   text-decoration: underline;
 }
 
-body.index {
+body {
   background-image: url(images/austin.jpg);
-  background-attachment: fixed;
+  background-attachment: absolute;
   background-position: 50% 10px;
   background-repeat: no-repeat no-repeat;
   background-size: 945px 142px;
