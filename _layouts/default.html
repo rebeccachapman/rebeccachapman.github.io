@@ -1,0 +1,33 @@
+<!DOCTYPE html> <html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <style> body { background-image: url(/images/{{page.image_name}}.jpg); } </style>
+</head>
+<body class="index">
+  <h1>Rebecca Ren&eacute;e Chapman</h1>
+  <div class="menu">
+    <ul>
+      <li class="menu">
+        <a href = "/">Home</a>
+      </li>
+      <li class="menu">
+        <a href = "/maps.html">Maps</a>
+      </li>
+      <li class="menu">
+        <a href = "/research.html">Research</a>
+      </li>
+      <li class="menu">
+        <a href = "/mad.html">MAD</a>
+      </li>
+      <li class="menu">
+        <a href = "/about.html">About Me</a>
+      </li>
+    </ul>
+  </div>
+  <hr>
+
+  {{ content }}
+
+</body>
+</html>
